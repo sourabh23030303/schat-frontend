@@ -1,0 +1,88 @@
+.chatpage{
+    background-color: black;
+    font-family: cursive;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.chatcontent{
+    background-color: rgb(29 35 38);
+ 
+  
+height: 90%;
+    width: 50%;
+    margin: 30px 0px;
+}
+.header{
+    height: 15%;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header img{
+    height: 95%;
+width: 107px;
+margin: 0px 296px;
+
+}
+.header i{
+ margin: 20px;
+   float: right;
+}
+.header i:hover{
+    color: white;
+}
+
+
+.chatbox{
+border: 0.2vmax solid black;
+height: 70%;
+box-sizing: border-box;
+
+}
+.inputbox{
+ 
+border: 0.2vmax solid black;
+height: 15%;
+box-sizing: border-box;
+display: flex;
+background-color: aquamarine;
+}
+#chatinput{
+    width: 80%;
+  border: none;
+  padding: 2vmax;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  outline: none;
+  height: 100%;
+  font-weight: 900;
+  font-family: cursive;
+
+}
+.sendbtn{
+    background-color: rgb(186, 39, 199);
+    color: white;
+    border: none;
+    width: 20%; 
+    font-size: large;  
+
+}
+.sendbtn:hover .fa{
+    /* background-color: blue; */
+    transition: all 0.3s;
+    transform: translate(20px);
+}
+.fa{
+    font-size: 60px;
+    width: 60px;
+}
+/* .fa:hover{
+    transform: translate(20px);
+    transition: all 0.3s;
+} */

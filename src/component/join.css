@@ -1,0 +1,93 @@
+.joinpage{
+background-color: black;
+color: white;
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+
+.joincontainer{
+    /* border: 2px solid rgb(223, 212, 212); */
+    height: 90%;
+    width: 50%;
+
+}
+img{
+    height: 120px;
+    width: 120px;
+    object-position: 1px 0px;
+}
+/* .logo{
+    width: 244px;
+} */
+h1{
+    
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+     
+      
+      font-weight: 400;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 70px;
+      line-height: 1;
+      animation: pulsate 0.11s ease-in-out infinite alternate; 
+          
+  }
+
+
+  #joininput{
+    width: 200px;
+    border-style:  dotted  ;
+  }
+  .glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 20px rgb(91 43 149);
+  }
+  .joinbtn{
+    margin: 14px 22px;
+    width: 70px;
+    
+    font-size: medium;
+    height: 40px;
+    text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(91 43 149);
+ 
+  border-radius: 128px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+  
+  input{
+    width: 40px;
+   background-color: black;
+   color: antiquewhite;
+   height: 40px;
+   font-size: large;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .fa{
+    height: 0px;
+    width: 0px;
+  }
+
+.joinpage{
+  justify-content: center;
+}
+.joincontainer{
+  justify-content: center;
+}
+
+ 

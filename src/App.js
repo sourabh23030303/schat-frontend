@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+
+// import  socketIO from "socket.io-client"
+import Chat from './component/chat/chat';
 import './App.css';
+import { BrowserRouter as Router , Routes,Route } from "react-router-dom";
+import Join from "./component/join/join";
+
+// //socket's end point is created 
+// const ENDPOINT ="http://localhost:4500/"
+// const socket=socketIO( ENDPOINT,{transports:['websocket']})//this is making connection bwt server and front end with socket bexause we have given the endpoint
 
 function App() {
+
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+ 
+  <Router>
+  <Routes>
+<Route exact path="/"  element={<Join/>}/>
+<Route  exact path="/Chat" element={<Chat/>} />
+</Routes>
+  </Router>
+  </>
   );
 }
 
