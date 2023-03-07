@@ -21,7 +21,7 @@ const  [message, setmessage] = useState([])
     }
     
     useEffect(() => {
-        const ENDPOINT = "https://server-sourabh23030303.vercel.app/"
+        const ENDPOINT = "https://server-b3qpjjbcn-sourabh23030303.vercel.app/"
       socket = socketIO(ENDPOINT, { transports: ['websocket'] })
         //connect is the name  of event 
         //on means receiving
