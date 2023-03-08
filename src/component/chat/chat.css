@@ -23,19 +23,19 @@ height: 90%;
     align-items: center;
     justify-content: center;
 }
-.header img{
+.header .img1{
     height: 95%;
 width: 107px;
 margin: 0px 296px;
 
 }
-.header i{
+.header .img2{
  margin: 20px;
    float: right;
+   width: 50px;
+   height: 50px;
 }
-.header i:hover{
-    color: white;
-}
+
 
 
 .chatbox{
@@ -73,6 +73,7 @@ background-color: aquamarine;
     font-size: large;  
 
 }
+
 .sendbtn:hover .fa{
     /* background-color: blue; */
     transition: all 0.3s;
@@ -82,7 +83,3 @@ background-color: aquamarine;
     font-size: 60px;
     width: 60px;
 }
-/* .fa:hover{
-    transform: translate(20px);
-    transition: all 0.3s;
-} */

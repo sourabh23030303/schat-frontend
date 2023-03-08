@@ -5,6 +5,7 @@ import "./chat.css"
 import Message from '../message/message'
 import ReactScrollToBottom from 'react-scroll-to-bottom'
 import logo from "../chat/logo.png"
+import xlogo from "../chat/xlogo.png"
 
 
 
@@ -32,6 +33,13 @@ const  [message, setmessage] = useState([])
         })
         //emit means data is sending (sending user to the socket server) (1)
         socket.emit('joined', { user })
+
+
+        // socket.on('joinbroadcast', (data) => {
+        //     setmessage([...message,data])
+        //     console.log(data.user, data.message)
+        // })
+      
         //receiving response from the socket (2)
         socket.on('welcome', (data) => {
             setmessage([...message,data])
@@ -78,12 +86,12 @@ socket.on('leave',(data)=>{
 
                 <div className='header'>
           
-                <img  src={logo} alt="logo" /> 
-                <div>
-                <a href="/">
-                <i className="gg-close-o"></i>
+                <img className='img1' src={logo} alt="logo" /> 
+                
+                <a className='adjustimg2' href="/">
+               <img className='img2' src={xlogo} alt="" />
                 </a>
-                </div>
+              
                 </div>
 
                 <ReactScrollToBottom className='chatbox'>
